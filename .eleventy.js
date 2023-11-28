@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
   }
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy({ "src/static": "./" });
+  eleventyConfig.addPassthroughCopy({ "src/static": "." });
 
   // Watch targets
   eleventyConfig.addWatchTarget("./src/styles/");
