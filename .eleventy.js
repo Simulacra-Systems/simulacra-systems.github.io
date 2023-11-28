@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src"
     },
-    pathPrefix
+    pathPrefix: "/simulacra-systems-site"
   }
 };
 
